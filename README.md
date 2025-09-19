@@ -15,6 +15,7 @@ Persönliches Meta-Repository für optimierte Mensch-KI-Interaktion und kontinui
 - **communication_patterns.md**: Sprachstil, Struktur-Präferenzen
 - **voice_to_text_patterns.md**: Fehler-Management, Spracherkennung
 - **learned_lessons.md**: Anti-Patterns, Erfolgs-Patterns, Optimierungen
+- **framework-update-lessons.md**: Framework-Development Learnings und Update-Process-Patterns
 - **workflow_preferences.md**: Projektspezifische Einstellungen
 
 ### KI-Spezifische Komponenten

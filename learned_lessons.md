@@ -204,4 +204,33 @@ Nach jeder längeren Interaktion dokumentieren:
 **Framework v1.2**: Gemini-Integration, erweiterte Bulk-Operation-Patterns
 **Framework v2.0**: Multi-KI-Orchestration basierend auf accumulated Learnings
 
+## Framework-Development Learnings
+
+### Update-Process-Failures:
+**Date:** 19.09.2025
+**Issue:** Framework v1.1 Features dokumentiert, aber Startup-Prompt nicht aktualisiert
+**Root-Cause:** Fehlende Interface-Validation im Update-Prozess
+**Fix:** Update-Checklist mit kritischen Touch-Points implementiert
+**Prevention:** End-to-End-Testing für alle Framework-Updates mandatory
+
+### Success-Pattern für Framework-Updates:
+1. **Documentation-Update:** Core-Features dokumentieren
+2. **Interface-Update:** User-Entry-Points aktualisieren
+3. **Integration-Test:** Holistic Function-Validation
+4. **Regression-Check:** Existing-Features weiterhin funktional
+
+### Anti-Pattern: Framework-Kern vs. User-Interface Disconnect
+**Problem:** Framework-Kernfunktionalität erweitert, aber User-zugängliche Interfaces nicht synchronisiert
+**Manifestation:** Neue Features existieren, sind aber für User nicht erreichbar weil Entry-Points veraltet
+**Solution-Pattern:** Update-Checklist mit Interface-Consistency-Validation
+**Implementation:** README-Prompt als kritischer User-Entry-Point bei jedem Update prüfen
+
+### Success-Pattern: Holistic Framework-Update-Validation
+**Approach:** End-to-End-Test von User-Entry bis Core-Feature
+**Implementation:**
+- Update-Checklist mit User-Interface-Consistency
+- Framework-Update-Quality-Gates in quality-framework.md
+- End-to-End-Session-Testing als mandatory Quality-Gate
+**Learning:** Framework-Updates müssen User-Experience-Continuity gewährleisten
+
 Diese Learnings bilden die Basis für kontinuierlich verbesserte Mensch-KI-Zusammenarbeit.
