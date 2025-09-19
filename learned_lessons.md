@@ -50,6 +50,12 @@
 **Lösung**: Konsistente Naming-Convention durchgehend anwenden
 **Learning**: File-Namen müssen copy-paste-fähig und konsistent sein
 
+### FEHLER 9: Artifact-Dateinamen-Inkonsistenz
+**Problem**: Claude erstellt Artifacts mit inkonsequenten Namen zwischen Title, ID und Download-Name
+**Beispiel**: Title "Comprehensive Framework", ID "comprehensive_framework", Download "artifact_comprehensive.txt"
+**Lösung**: Einheitliche Namenskonvention für alle Artifact-Bezüge verwenden
+**Learning**: User kann nicht vorhersagen welcher Name für Download/Referenzierung verwendet wird
+
 ## ✅ Universelle Erfolgs-Patterns (Alle KI-Systeme)
 
 ### ERFOLG 1: Systematische Fragelisten vor Lösungs-Entwicklung
